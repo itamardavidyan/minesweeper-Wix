@@ -1,2 +1,2 @@
-# minesweeper-Wix
+# minesweeper
 minesweeper game for WIX home assignment

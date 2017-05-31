@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Minesweeper game</title>
+        <link rel="stylesheet" href="styles.css">
+        <script type="text/javascript" src="minesweeper.js"></script>
+
+    </head>
+    
+    <body>
+        <div id="mainDiv">
+            <img src="win.png" class="overlay">
+            
+            <div id="propertiesDiv" >
+                <p>
+                    Rows: <input type="number" name="rowsInput" value="10" max="300">
+                    Columns: <input type="number" name="colsInput" value="10" max="300">
+                    Bombs: <input type="number" name="bombsInput" value="20" max="300">
+                    <button type="reset" name="newGameBtn" onclick="newGame()" >New Game</button>
+                    <input type="checkbox" name="supermanCB" value="false" onchange="cbChange()"> Superman 
+                    <div id="dataDiv">
+                        <img src="Timer.png">
+                        <h1 id="timerH">0s</h1>
+                        <img src="bombsLeft.png">
+                        <h1 id="bombsLeftH">20</h1>
+                    </div>
+                </p>
+            </div>
+            
+            <div id="canvasDiv">
+                    <canvas id="gameCanvas" width="400" height="400" ></canvas>
+            </div>
+            <br/>            
+        </div>
+        
+    </body>
+</html>

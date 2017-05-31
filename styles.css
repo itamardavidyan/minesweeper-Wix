@@ -1,0 +1,47 @@
+.overlay {
+    position: absolute;
+    height: 213px;
+    width: 847px;
+}
+
+input[type=number] {
+    text-align: center;
+    width: 55px;
+}
+
+input[type=checkbox] {
+    width: 18px;
+    height: 18px;
+    margin: 1px;
+    margin-left: 10px;
+}
+
+p button {
+    color: black;
+    background-color: cadetblue;
+}
+
+#dataDiv h1 {
+    display: inline;
+    text-align: center;
+}
+
+#dataDiv img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    display: inline;
+}
+
+h5 {
+    margin-top: 2px;
+    visibility: hidden;
+}
+
+#winTitle {
+    margin-bottom: 2px;
+    margin-top: 4px;
+    font-size: 54px;
+    color: darkred;
+    visibility: hidden;
+}
